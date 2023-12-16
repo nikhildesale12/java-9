@@ -1,0 +1,11 @@
+Java has improved its process API in Java 9 version that helps to manage and control operating system processes.
+
+In earlier versions, it was complex to manage and control operating system processes by using Java programming. 
+Now, new classes and interfaces are added to perform this task.
+
+New interfaces ProcessHandle and ProcessHandle.Info are added.
+
+Java ProcessHandle Interface
+ProcessHandle helps to handle and control processes. We can monitor processes, list its children, get information etc.
+
+This interface contains static factory methods that return instances that are value-based, immutable and thread-safe.
