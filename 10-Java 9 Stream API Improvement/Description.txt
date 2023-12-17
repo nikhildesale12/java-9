@@ -1,0 +1,12 @@
+In Java 9, Stream API has improved and new methods are added to the Stream interface. These methods are tabled below.
+1. takeWhile(Predicate<? super T> predicate) : It returns, if this stream is ordered, a stream consisting of the longest
+  prefix of elements taken from this stream that match the given predicate
+
+2. dropWhile(Predicate<? super T> predicate) : It returns, if this stream is ordered, a stream consisting of the remaining elements of
+  this stream after dropping the longest prefix of elements that match the given predicate.
+  
+3. ofNullable(T t) : It returns a sequential Stream containing a single element, if non-null, otherwise returns an empty Stream.
+
+4. iterate(T seed, Predicate<? super T> hasNext, UnaryOperator<T> next) : It returns a sequential ordered Stream produced by iterative application of the given next
+   function to an initial element
+  

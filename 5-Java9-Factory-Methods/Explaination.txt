@@ -1,0 +1,30 @@
+Java 9 Collection library includes static factory methods for List, Set and Map interface. 
+These methods are useful to create small number of collection.
+
+
+Ex- List.of("one","two","three")
+
+------------------------------------------------------------------------------------------------------
+Java 9 Set Interface
+Java Set interface provides a Set.of() static factory method which is used to create immutable set. 
+The set instance created by this method has the following characteristcis.
+
+It is immutable
+No null elements
+It is serializable if all elements are serializable.
+No duplicate elements.
+The iteration order of set elements is unspecified and is subject to change.
+
+--------------------------------------------------------------------------------------------------------
+
+Java 9 Map Interface Factory Methods
+In Java 9, Map includes Map.of() and Map.ofEntries() static factory methods that provide a convenient way 
+to create immutable maps.
+
+Map created by these methods has the following characteristics.
+
+It is immutable
+It does not allow null keys and values
+It is serializable if all keys and values are serializable
+It rejects duplicate keys at creation time
+The iteration order of mappings is unspecified and is subject to change.

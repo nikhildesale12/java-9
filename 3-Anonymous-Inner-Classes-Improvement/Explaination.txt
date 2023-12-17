@@ -1,0 +1,11 @@
+Diamond syntax, sometimes known as the diamond operator, 
+It was added to Java 7 as just a new feature. The diamond operator makes it easier to employ generics while 
+building an object.
+
+
+Java 9 introduced a new feature that allows us to use diamond operator with anonymous classes. 
+Using the diamond with anonymous classes was not allowed in Java 7.
+
+
+Data types that can be written in Java program like int, String etc are called denotable types. 
+Java 9 compiler is enough smart and now can infer type.

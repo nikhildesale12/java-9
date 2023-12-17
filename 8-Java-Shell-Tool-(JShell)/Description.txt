@@ -1,0 +1,13 @@
+It is an interactive Java Shell tool, it allows us to execute Java code from the shell and shows output immediately. 
+JShell is a REPL (Read Evaluate Print Loop) tool and run from the command line.
+
+Advantages of JShell
+Jshell has reduced all the efforts that are required to run a Java program and test a business logic.
+
+Open editor and write program
+Save the program
+Compile the program
+Edit if any compile time error
+Run the program
+Edit if any runtime error
+Repeat the process

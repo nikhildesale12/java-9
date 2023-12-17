@@ -1,0 +1,15 @@
+Java Module System is a major change in Java 9 version. 
+Java added this feature to collect Java packages and code into a single unit called module.
+
+In earlier versions of Java, there was no concept of module to create modular Java applications, 
+that why size of application increased and difficult to move around. Even JDK itself was too heavy in size, 
+in Java 8, rt.jar file size is around 64MB.
+
+To deal with situation, Java 9 restructured JDK into set of modules so that we can use only required module for our project.
+
+Java 9 Module
+Module is a collection of Java programs or softwares. To describe a module, a Java file module-info.java is required. This file also known as module descriptor and defines the following
+
+Module name
+What does it export
+What does it require

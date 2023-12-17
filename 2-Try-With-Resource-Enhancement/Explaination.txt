@@ -1,0 +1,18 @@
+Java introduced try-with-resource feature in Java 7 that helps to close resource automatically after being used.
+
+But the below program would not work with Java 7 because we can't put resource declared outside the try-with-resource.
+
+
+FileOutputStream fileStream=new FileOutputStream("javatpoint.txt");  
+try(fileStream){  
+	----
+}
+
+
+Error- error: <identifier> expected
+		   try(fileStream){
+		   
+		   
+In this case, if we execute the above program using Java 9 compiler, 
+it will execute nicely without any compile error.
+
